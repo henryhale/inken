@@ -1,7 +1,7 @@
 <div align='center'>
 <h1>inken</h1>
 <p>string styling for the browser</p>
-<img src="./media/screenshot.png" alt="">
+<img src="https://github.com/henryhale/inken/blob/master/media/screenshot.png" alt="">
 </div>
 
 > With inspiration from [yoctocolors](https://github.com/sindresorhus/yoctocolors), I created a similar module that provides terminal-like string styling functionality in the browser.
@@ -44,7 +44,7 @@ log(blue('Hello World!'));
 
 ## Demo
 
-To run the [demo](./demo/), fork this repo and simply open the [index.html](./demo/index.html) file in your browser.
+To run the [demo](https://github.com/henryhale/inken/blob/master/demo), fork this repo and simply open the [index.html](https://github.com/henryhale/inken/blob/master/demo/index.html) file in your browser.
 
 ## Styles
 
@@ -131,9 +131,9 @@ log(
 
 Output:
 
-![](./media/all-in-one.png)
+![](https://github.com/henryhale/inken/blob/master/media/all-in-one.png)
  
 
 ## LICENSE
 
-Released under the [MIT License](./LICENSE)
+Released under the [MIT License](https://github.com/henryhale/inken/blob/master/LICENSE)
