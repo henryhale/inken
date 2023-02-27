@@ -17,7 +17,7 @@
 ## Install
 
 ```console
-$ npm install pen
+$ npm install inken
 ```
 
 ## Usage
