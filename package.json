@@ -1,0 +1,27 @@
+{
+  "name": "inken",
+  "version": "1.0.0",
+  "description": "String styling for the browser",
+  "license": "MIT",
+  "author": {
+    "name": "Henry Hale",
+    "url": "https://github.com/henryhale"
+  },
+	"type": "module",
+  "main": "./index.js",
+	"exports": "./index.js",
+	"typings": "./index.d.ts",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "color",
+		"colour",
+		"colors",
+    "formatting",
+    "string",
+    "style",
+		"styles",
+    "text"
+  ]
+}
