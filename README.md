@@ -4,7 +4,7 @@
 <img src="./media/screenshot.png" alt="">
 </div>
 
-> With inspiration from [yoctocolors](https://github.com/sindresorhus/yoctocolors), this module provides terminal-like string styling functionality in the browser.
+> With inspiration from [yoctocolors](https://github.com/sindresorhus/yoctocolors), I created a similar module that provides terminal-like string styling functionality in the browser.
 
 ## Features
 
