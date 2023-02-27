@@ -44,7 +44,7 @@ log(blue('Hello World!'));
 
 ## Demo
 
-To run the [demo](./demo/), fork this repo and simply open the index.html file in your browser.
+To run the [demo](./demo/), fork this repo and simply open the [index.html](./demo/index.html) file in your browser.
 
 ## Styles
 
