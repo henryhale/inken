@@ -15,7 +15,7 @@ function test(msg, fn) {
     status ? pass(msg) : fail(msg);
 }
 
-log('Modifiers');
+log('\nModifiers');
 
 test('bold', t => {
     t.equal(p.bold('bold'), '<b>bold</b>');
@@ -34,7 +34,7 @@ test('strikethrough', t => {
 });
 
 test('dim', t => {
-    t.equal(p.dim('dim'), '<span style="opacity: 0.5;">dim</span>');
+    t.equal(p.dim('dim'), '<span style="opacity:0.5;">dim</span>');
 });
 
 log('\nText colors');
@@ -66,3 +66,11 @@ test('black text on white background', t => {
 test('white text on black background', t => {
     t.equal(p.bgBlack(p.white('white & black')), '<span style="background-color:#000000;color:#FFFFFF;">white & black</span>');
 });
+
+log('\nMultiple arguments');
+
+test('Thank you very much', t => {
+    t.equal(p.white('Thank', 'you', 'very', 'much'), '<span style="color:#FFFFFF;">Thank you very much</span>');
+});
+
+log('\n:) I\'m glad you tested \u001B[36minken\u001B[39m\n');
