@@ -25,7 +25,7 @@ const format = function format(key, value) {
                 return (wrap ? '<span style="' : '') +
                     (this.bg ? 'background-color:' + this.bg + ';' : '') +
                     (this.fg ? 'color:' + this.fg + ';' : '') + 
-                    (this.dim ? 'opacity: 0.5;' : '') +
+                    (this.dim ? 'opacity:0.5;' : '') +
                     (wrap ? '">' : '') +
                     (this.bold ? '<b>' : '') +
                     (this.underline ? '<u>' : '') +
