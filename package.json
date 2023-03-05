@@ -1,16 +1,30 @@
 {
   "name": "inken",
-  "version": "1.0.1",
-  "description": "String styling for the browser",
+  "version": "1.0.2",
+  "description": "Terminal-like string styling for the browser",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henryhale/inken.git"
+  },
   "author": {
     "name": "Henry Hale",
     "url": "https://github.com/henryhale"
   },
+  "bugs": {
+    "url": "https://github.com/henryhale/inken/issues"
+  },
+  "homepage": "https://github.com/henryhale/inken#readme",
 	"type": "module",
   "main": "./index.js",
 	"exports": "./index.js",
 	"typings": "./index.d.ts",
+  "files": [
+    "./index.d.ts",
+    "./index.js",
+    "./LICENSE",
+    "./README.md"
+  ],
   "scripts": {
     "test": "node ./test.js"
   },
@@ -22,6 +36,8 @@
     "string",
     "style",
 		"styles",
-    "text"
+    "text",
+    "terminal",
+    "web"
   ]
 }
