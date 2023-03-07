@@ -1,10 +1,12 @@
 <div align='center'>
 <h1>inken</h1>
-<p>string styling for the browser</p>
+<p>terminal-like string styling for the browser</p>
 <img src="https://github.com/henryhale/inken/blob/master/media/screenshot.png" alt="">
 </div>
 
-> With inspiration from [yoctocolors](https://github.com/sindresorhus/yoctocolors), I created a similar module that provides terminal-like string styling functionality in the browser.
+> With inspiration from [yoctocolors](https://github.com/sindresorhus/yoctocolors), this is similar module that provides terminal-like string styling functionality in the browser.
+
+> Checkout [chalk-dom](https://github.com/henryhale/chalk-dom), similar but mature with a different API.
 
 ## Features
 
@@ -44,7 +46,7 @@ log(blue('Hello World!'));
 
 ## Demo
 
-To run the [demo](https://github.com/henryhale/inken/blob/master/demo), fork this repo and simply open the [index.html](https://github.com/henryhale/inken/blob/master/demo/index.html) file in your browser.
+To run the [demo](https://github.com/henryhale/inken/blob/master/demo), clone this repo and simply open the [index.html](https://github.com/henryhale/inken/blob/master/demo/index.html) file in your browser.
 
 ## Styles
 
@@ -55,6 +57,11 @@ To run the [demo](https://github.com/henryhale/inken/blob/master/demo), fork thi
 - `italic` - Make the text italic.
 - `underline` - Underline the text.
 - `strikethrough` - Put a horizontal line through the center of the text.
+
+### User defined
+
+- `fg` - Set a custom foreground color (text color)
+- `bg` - Set a custom background color
 
 ### Colors
 
@@ -82,9 +89,9 @@ To run the [demo](https://github.com/henryhale/inken/blob/master/demo), fork thi
 
 ## API
 
-Multiple arguments, nesting and ES2015 template literals supported by all styles.
+Multiple arguments, nesting and ES2015 template literals are supported by all styles.
 
-In code samples below, `'...'` represents the implementation of the `log` function from the [previous section (usage)](#javascript) 
+>In code samples below, `'...'` represents the implementation of the `log` function from the [previous section (usage)](#javascript) 
 
 - Multiple arguments
 
@@ -132,7 +139,10 @@ log(
 Output:
 
 ![](https://github.com/henryhale/inken/blob/master/media/all-in-one.png)
- 
+
+## Related
+
+- [chalk-dom](https://github.com/henryhale/chalk-dom) - Chalk for the browser
 
 ## LICENSE
 
