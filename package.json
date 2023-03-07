@@ -1,11 +1,11 @@
 {
   "name": "inken",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Terminal-like string styling for the browser",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/henryhale/inken.git"
+    "url": "git+https://github.com/henryhale/inken.git"
   },
   "author": {
     "name": "Henry Hale",
