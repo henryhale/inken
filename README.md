@@ -3,6 +3,14 @@
 <p>terminal-like string styling for the browser</p>
 <img src="https://github.com/henryhale/inken/blob/master/media/screenshot.png" alt="">
 </div>
+<br>
+<div align="center">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/henryhale/inken/npm-publish.yml">
+<img alt="npm" src="https://img.shields.io/npm/v/inken">
+<img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/henryhale/inken">
+<img alt="GitHub" src="https://img.shields.io/github/license/henryhale/inken">
+</div>
+<br>
 
 > With inspiration from [yoctocolors](https://github.com/sindresorhus/yoctocolors), this is similar module that provides terminal-like string styling functionality in the browser.
 
