@@ -151,6 +151,7 @@ Output:
 ## Related
 
 - [chalk-dom](https://github.com/henryhale/chalk-dom) - Chalk for the browser
+- [xterminal](https://github.com/henryhale/xterminal) - build web-based cli interfaces 
 
 ## LICENSE
 
